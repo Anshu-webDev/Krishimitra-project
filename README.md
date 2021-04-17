@@ -1,1 +1,1 @@
-# Krishimitra-project
+# Krishimitra
