@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/xampp/htdocs/kris/mlruns/0/f0b5ad148f9742338b35b8dc7a58006c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f0b5ad148f9742338b35b8dc7a58006c
+run_uuid: f0b5ad148f9742338b35b8dc7a58006c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1617901864069
+status: 1
+tags: []
+user_id: Amit
