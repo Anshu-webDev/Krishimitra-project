@@ -1,0 +1,120 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+  .hide {
+    display: none;
+  }
+
+  .Mydiv:hover + .hide {
+    display :block;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  .cart-page{
+    margin: 80px auto;
+    font-family: sans-serif;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .cart-info{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .name-cart{
+    margin-top: 10px;
+  }
+  th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: #004203;
+    font-weight: normal;
+  }
+ 
+  td input{
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+  }
+  td a{
+    color: red
+  }
+  td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    
+  }
+  p{
+    font-size: 17px;
+  }
+  small{
+    font-size: 15px;
+  }
+  
+  .total-price{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .total-price table{
+    margin-top:5px;
+    border-top: 3px solid #004203;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .checkout{
+    margin-left: 860px;
+  }
+ 
+/* media querry for menu */
+
+@media screen and (max-width: 960px){
+  nav ul{
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background: #333;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+  }
+  nav ul li{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  nav ul li a{
+      color: #fff;
+  }
+  .menu-icon{
+      display: block;
+      cursor: pointer;
+  }
+  .shopping-cart th {
+    font-size: 1em;
+    padding: 0.2em;
+    width: 33.3%;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+}
+
+
+@media screen and (max-width: 530px){
+  .search-box{
+      position: absolute;
+      top: 70px;
+      overflow: hidden;
+      margin-top: 5px;
+      transition: max-height 0.5s;
+      
+  }
+
+}
